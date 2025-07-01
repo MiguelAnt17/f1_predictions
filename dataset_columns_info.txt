@@ -1,0 +1,29 @@
+Dataset CSV columns:
+
+- circuits: circuitId, circuitRef, name, location, country, lat, lng, alt, url
+
+- constructor_results: constructorResultsId, raceId, constructorId, points, status
+
+- constructor_standings: constructorStandingId, raceId, constructorId, points, position, positionText, wins
+
+- constructors: constructorId, constructorRef, name, nationality, url
+
+- driver_standings: driverStandingsId, raceId, driverId, points, position, positionText, wins
+
+- drivers: driverId, driverRef, number, code, forename, surname, dob nationality, url
+
+- lap_times: raceId, driverId, lap, position, time, milliseconds
+
+- pit_stops: raceId, driverId, stop, lap, time, duration, milliseconds
+
+- qualifying: qualifyId, raceId, driverID, constructorId, number, position, q1, q2, q3
+
+- races: raceId, year, round, circuitId, name, date, time, url, fp1_date, fp1_time, fp2_date, fp2_time, fp3_date, fp3_time, quali_date, quali_time, sprint_date, sprint_time
+
+- results: resultId, raceId, driverId, constructorId, number, grid, position, positionText, positionOrder, points, laps, time, milliseconds, fastestLap, rank, fastestLapSpeed, statusId
+
+- seasons: year, url
+
+-sprint_results: resultId, raceId, driverId, constructorId, number, grid, position, positionText, positionOrder, points, laps, time, milliseconds, fastestLap, fastestLapTime, statusId
+
+- status: statusId, status
